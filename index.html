@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background: linear-gradient(0.25turn, #5edbf1, #e6ede0, #ddae7b);">
+
+    <div class="page">
+        <img id="image" src="kiran.jpg" alt="Profile-Pic">
+        
+        <div id="name"> <h2>Kiran Kumar Mankali</h2></div>
+        <div id="branch"><h3>Computer Science and Engineering</h3></div>
+<div class="fonts">
+    <i class="fa-solid fa-phone" id="phone"></i>
+    <i class="fa-solid fa-envelope" id="envelop"></i> 
+    <i class="fa-brands fa-linkedin" id="linkedin"></i>
+    <i class="fa-brands fa-github" id="github"></i>    
+</div>
+         
+    </div>
+    
+    <script>
+
+const phone=document.getElementById("phone");
+const envelop=document.getElementById("envelop");
+const linkedin = document.getElementById("linkedin");
+const github=document.getElementById("github");
+
+phone.addEventListener("click", function(){
+    const phoneNumber = "+91 8688273175";
+        alert("Phone Number: " + phoneNumber);
+})
+envelop.addEventListener("click",function(){
+    window.location.href="mailto:"
+})
+
+linkedin.addEventListener("click", function(){
+    window.location.href="https://www.linkedin.com/in/kirankumar12/"
+})
+
+github.addEventListener("click", function(){
+    window.location.href="https://github.com/kirankumar72"
+})
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.page {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color:#fff;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#image{
+margin-top: 10px;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  background-size: cover;
+  border: none;
+}
+#name{
+padding-top: 10px;
+
+}
+
+#branch{
+padding-bottom: 5px;
+}
+
+.fa-linkedin{
+    font-size: 35px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    transform: scale(1.1); 
+        transition: transform 0.2s ease-in-out; 
+}
+
+.fa-github{
+    font-size: 35px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.fa-github:hover{
+    transform: scale(1.1); 
+        transition: transform 0.2s ease-in-out; 
+}
+.fa-phone{
+    font-size: 35px; 
+    margin-right: 12px;
+    cursor: pointer;
+}
+.fa-phone:hover{
+    transform: scale(1.1); 
+        transition: transform 0.2s ease-in-out; 
+}
+.fa-envelope{
+    font-size: 35px;
+    margin-right: 12px; 
+    cursor: pointer; 
+}
+.fa-envelope:hover{
+    transform: scale(1.1); 
+        transition: transform 0.2s ease-in-out; 
+}
+.fonts{
+    padding-bottom: 20px;
+}
